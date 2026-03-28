@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #333;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 200px;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #cfd8dc;
+    cursor: pointer;
+}
+
+/* Hover kuning */
+.sidebar li:hover {
+    background: yellow;
+}
+
+/* Active menu */
+.sidebar .active {
+    background: gold;
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+    padding: 15px;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+.top-link {
+    text-align: right;
+    color: red;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Highlight hijau */
+.highlight {
+    background: #26a69a;
+    color: white;
+    padding: 2px 5px;
+}
+
+/* FOOTER */
+.footer {
+    background: #3f5166;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
